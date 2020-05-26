@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Form Elements</title>
+    </head>
+    <body>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="browser">Choose your favour browser:</label><br>
+            <input list="languages" name="language">
+            <datalist id="languages">
+                <option value="Java"></option>
+                <option value="PHP"></option>
+                <option value="Python"></option>
+                <option value="C#"></option>
+            </datalist>
+            <button>Submit</button>
+            <input type="reset">
+        </form>
+    </body>
+</html>
