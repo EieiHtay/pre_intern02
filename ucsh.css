@@ -1,0 +1,218 @@
+.container{
+    width:100%;
+    height:100%;
+}
+.header{
+    background-color: darkblue;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    position:absolute;
+    background-color: white;
+    top:180px;
+    left:0px;
+    padding-left: 0px;
+    height: 10%;
+    width: 100%;
+}
+.mainbody{
+    margin: auto;
+    left: 0;
+    width:100%;
+    height: 70%;
+    padding-left:1px;
+    padding-top: 1px;
+}
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: darkblue;
+    color:white;
+    
+    text-align: center;
+}
+
+.logo{
+    padding-left: 120px;
+    width: 20%;
+    position:absolute;
+}
+.title{
+    margin-left: 350px;
+    padding-top: 2px;
+    width: 50%;
+    text-align: center;
+    color: darkorange;
+}
+
+.imagelogo{
+    margin:20px;
+    padding:20px;
+    width: 35%;
+}
+.image{
+    top:0px;
+    padding:0px;
+    width: 100%;
+    vertical-align: auto;
+}
+.nexttitle{
+    margin-left: 300px;
+    padding-top: 0px;
+    padding-right: 300px;
+    text-align: center;
+}
+.paragraph{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.fontstyle{
+    font-size: 20px;
+    font-family: Arial,Roboto;
+    font-weight: bold;
+    color:gold;
+}
+.nextfontstyle{
+    font-size: 20px;
+    font-family: Arial,Roboto;
+    font-weight: bold;
+    color:black;
+}
+ul{
+    padding-left: 20px;
+}
+ul li{
+    float:left;
+    list-style: outside;
+    padding-left:20px;
+    padding-right: 90px;
+}
+.area{
+    border:5px solid white;
+    background-color:rgb(87, 166, 190);;
+    padding-top:0px;
+    padding-left: 10px;
+    
+}
+.box{
+    width:400px; float:left; margin:10px 100px 10px 100px;
+    
+}
+.download{
+    border-radius: 2px;
+    background-color:paleturquoise;
+    width: 60%;
+    height: 30%;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+.contact{
+    border:5px solid white;
+    background-color: rgb(87, 166, 190); 
+     
+}
+.box1{
+    width:270px; float:left; margin:30px 10px 0px 0px;
+    
+}
+
+.edit{
+    border:10px solid whitesmoke;
+    background-color:white;
+    padding-left:30px;
+    
+}
+
+.box0{
+    width:600px; float:center; margin:5px 500px 10px 0px;
+    
+}
+
+.nextlogo{
+    margin-left: 990px;
+    width: 50%;
+    position:absolute;
+}
+.nextimagelogo{
+    padding-bottom: 10px;
+}
+.ict{
+    margin-top: 0px;
+    width: 99%;
+    height: 120px;
+    
+    position: absolute;
+}
+.sub{
+    
+    width: 10px;
+    margin: 10px;
+    padding: 7px;
+    
+}
+p{
+    padding-top: 5px;
+    padding-left: 150px;
+    color: gray;
+    text-align:left;
+    font-size: large;
+}
+
+hr{
+    color: snow;
+    font-weight: bold;
+}
+
+
+.date{
+    
+    width: 300px;
+    margin: 10px;
+    padding: 7px;
+    
+}
+.fee{
+    
+    width: 300px;
+    margin: 10px;
+    padding: 7px;
+    
+}
+.click{
+    
+    width: 300px;
+    margin: 10px;
+    padding: 7px;
+    
+}
+.content{
+    top: 200px;
+    left: 50px;
+    width: 97%;
+    
+    padding-top: 120px;
+    padding-left: 5px;
+}
+h2{
+    color: rgb(102, 26, 26);
+}
+h3{
+    color: rgb(94, 29, 29);
+    text-align: left;
+}
+.register{
+    color: red;
+}
