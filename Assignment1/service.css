@@ -1,0 +1,142 @@
+.container{
+    width:100%;
+    height:100%;
+}
+.header{
+    background-color: rgb(72, 117, 72);
+    width: 100%;
+    height: 13%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.navdiv{
+    position: absolute;
+    background-color: rgb(72, 117, 72);
+    top:10px;
+    left:350px;
+    height: 13%;
+    width: 70%;
+}
+.navbar{
+    position: absolute;
+    
+    top:81px;
+    left:0px;
+    padding-left: 100px;
+    height: 80%;
+    width: 100%;
+}
+.mainbody{
+    position:absolute;
+    top:700px;
+    left:0px;
+    
+    width:100%;
+    height:50%;
+    padding:10px;
+}
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: darkblue;
+    color:white;
+    text-align: center;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 120px;
+    width: 20%;
+    position:absolute;
+}
+.imagelogo{
+    margin:1px;
+    padding:10px;
+    width: 70%;
+}
+.fontstyle{
+    font-size: 30px;
+    font-family: Arial,Roboto;
+    font-weight: bold;
+    color:darkkhaki;
+}
+ul{
+    margin-left: 10px;
+}
+
+ul li{
+    margin-left: 30px;
+    float:left;
+    
+    padding-left:0px;
+    padding-right: 40px;
+}
+.image{
+    margin-top:0px;
+    margin-left: 2px;
+    padding:1px;
+    width: 700px;
+    height: 370px;
+    
+}
+
+.div1{
+    top: 30px;
+    margin-left:30px;
+    padding-top:70px;
+    padding-left: 3px;
+    width: 300px;
+    height: 370px;
+    
+}
+.service{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+p{
+    left: 0px;
+}
+h3{
+    padding: 1px;
+    margin: 1px;
+}
+table{
+    margin-top: 1px;
+    margin-left: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    width: 750px;
+    height: 100px;
+}
+.photo{
+    padding-left: 1px;
+    
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.office{
+    width: 700px;
+    height: 100px;
+    padding-left: 2px;
+    margin-left: 100px;
+    margin-top: 1px;
+    
+}
+.end{
+    
+    width: 900px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 1px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+hr{
+    color-adjust: darkgreen;
+    line-height: 10px;
+}
+
