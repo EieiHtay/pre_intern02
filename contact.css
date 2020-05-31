@@ -61,15 +61,15 @@
 }
 
 .logo{
-    padding-top: 2px;
+    padding-top: 10px;
     padding-left: 120px;
-    width: 35%;
+    width: 20%;
     position:absolute;
 }
 .imagelogo{
     margin:1px;
-    padding:20px;
-    width: 35%;
+    padding:10px;
+    width: 70%;
 }
 .location{
     width: 3%;
