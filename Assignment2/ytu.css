@@ -208,9 +208,15 @@ p{
     color: white;
 }
 a{
-    color: white;
+    
     
     text-decoration: none;
+}
+.txtcolor{
+    color: white;
+}
+.linkcolor{
+    color: darkorange;
 }
 .right{
     float: right;
