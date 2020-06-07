@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Form</title>
+        <style>
+            button{
+                width: 100px;
+                height: 50px;
+                background-color: darkblue;
+                color: white;
+            }
+            button:hover{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="First name" type="text" placeholder="First Name"><br>
+                <input name="Last name" type="text" placeholder="Last Name"><br>
+                <input name="password" type="password" placeholder="Password"><br>
+            </div>
+            <div>
+                Favorite Language?
+                <input name="Language" type="radio" value="java">Java
+                <input name="Language" type="radio" value="php">PHP
+                <input name="Language" type="radio" value="python">Python
+                <input name="Language" type="radio" value="C#">C#
+            </div>
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan"></option>
+                    <option value="Myanmar(Burma)"></option>
+                    <option value="Korea"></option>
+                    <option value="United States"></option>
+                    <option value="United Kingdom"></option>
+                    <option value="United Arab Emirates"></option>
+                    <option value="Algeria"></option>
+                    <option value="Australia"></option>
+                    <option value="Belgium"></option>
+                    <option value="Bangladesh"></option>
+                    <option value="Cambodia"></option>
+                    <option value="China"></option>
+                    <option value="Colombia"></option>
+                    <option value="Denmark"></option>
+                    <option value="Egypt"></option>
+                    <option value="France"></option>
+                    <option value="Germany"></option>
+                    <option value="Hong Kong"></option>
+                    <option value="India"></option>
+                    <option value="Indonesia"></option>
+                    <option value="Iran"></option>
+                    <option value="Italy"></option>
+                    <option value="Japan"></option>
+                    <option value="Laos"></option>
+                    <option value="Malaysia"></option>
+                    <option value="Mexico"></option>
+                    <option value="Metherlands"></option>
+                    <option value="New Zealand"></option>
+                    <option value="Pakistan"></option>
+                    <option value="Philippines"></option>
+                    <option value="Poland"></option>
+                    <option value="Portugal"></option>
+                    <option value="Russia"></option>
+                    <option value="Singapore"></option>
+                    <option value="South Africa"></option>
+                    <option value="Spain"></option>
+                    <option value="Sweden"></option>
+                    <option value="Switzerland"></option>
+                    <option value="Taiwan"></option>
+                    <option value="Thailand"></option>
+                    <option value="Turkey"></option>
+                    <option value="Vietnam"></option>
+                </datalist>
+            </div>
+            <button>Submit</button>
+            <button>Close</button>
+
+        </form>
+    </body>
+</html>
