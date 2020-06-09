@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Print</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media print{
+                .screenonly{
+                    display: none;
+                }
+            }
+            @media (min-width: 600px){
+                h2::before{
+                    content:"Welcome to Responsive Design(PreIntern)"
+                }
+            }
+            @media (max-width: 599px){
+                h2::before{
+                    content: "Welcome to our group";
+                }
+            }
+            @media(min-width: 600px){
+                body{
+                    background-color: red;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Yangon (formerly known as Rangoon) is the largest city in Myanmar (formerly Burma). 
+                A mix of British colonial architecture, modern high-rises and gilded Buddhist pagodas define its skyline. Its famed Shwedagon Paya, a huge, shimmering pagoda complex, draws thousands of pilgrims annually. The city's other notable religious 
+                sites include the Botataung and Sule pagodas, both housing Buddhist relics.</p>
+            <p>Mandalay is a city and former royal capital in northern Myanmar (formerly Burma) on 
+                the Irrawaddy River. In its center is the restored Mandalay Palace from the Konbaung Dynasty, surrounded by a moat. Mandalay Hill provides views of the city from its summit, which is reached by covered stairway. At its foot, 
+                the Kuthodaw Pagoda houses hundreds of Buddhist-scripture-inscribed marble slabs.</p>
+            <p class="screenonly">This is testing.</p>
+        </div>
+    </body>
+</html>
