@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function btnenable(txt){
+                var btn=document.getElementById("btn");
+                btn.disabled=true;
+                if(txt.value!=''){
+                    btn.disabled=false;
+                }
+                
+                else{
+                    btn.disabled=true;
+                }
+            }
+            document.addEventListener('DOMContentLoaded',()=>{
+
+                document.querySelector('#todo-list').onsubmit=()=>{
+
+                    const li=document.createElement('li');
+                    li.innerHTML=document.querySelector('#task').value;
+
+                    document.querySelector('#list').append(li);
+
+                    document.querySelector('#task').value='';
+
+                    btn.disabled=true;
+                    return false;
+                };
+            });
+            
+        </script>
+        <title>Test ToDo List</title>
+    </head>
+    <body>
+        <h1>To Do List</h1>
+        <ul id="list">
+        </ul>
+        <form id="todo-list">
+            <input id="task" autocomplete="off" autofocus placeholder="Add todo-task" type="text" onkeyup="btnenable(this)">
+            <input type="submit" id="btn" disabled>
+        </form>
+    </body>
+</html>

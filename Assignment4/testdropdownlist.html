@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script>
+            function changecolor(color){
+                var c=color.options[color.selectedIndex].value;
+                document.querySelector('#hello').style.color=c;
+            }
+        </script>
+        <title>Test DropDown List</title>
+    </head>
+    <body>
+        <h1 id="hello">Hello! Welcome to Our Preintern Group.</h1>
+        <select id="color" onchange="changecolor(this)">
+            <option selected>Choose colors!</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </body>
+</html>
